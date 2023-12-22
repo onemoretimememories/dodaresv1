@@ -72,7 +72,11 @@
           <img src="./logo-dodares.png" alt="DoDares" width="100" />
         </div>
         <div id="timer" class="my-3 timer"></div>
-        <div id="dareDisplay" class="my-6 dare-text"></div>
+        <div id="dareContainer" >
+          <div id="dareEmoji"></div>
+          <div id="dareText"></div>
+        </div>
+        
         <button
           id="beginButton"
           class="btn btn-success btn-block btn-circle mb-4"
@@ -111,9 +115,9 @@
       >
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title text-secondary" id="modalLabel">
+            <h3 class="modal-title text-secondary" id="modalLabel">
               Game Instructions
-            </h5>
+            </h3>
             <button
               type="button"
               class="close"
@@ -126,7 +130,7 @@
 
           <div class="modal-body text-secondary">
             <!-- Your game instructions here -->
-            <p>The game is simple:</p>
+            <p><strong>The game is simple:</strong></p>
             <ul>
               <li>Enter your name and your partner's name.</li>
               <li>Press "Play" to start the timer and reveal your dare.</li>
@@ -144,7 +148,7 @@
         If you are under age, please do not proceed and close this window.
       </p>
       <p>
-        &copy; 2023
+        &copy; 2024
         <a href="mailto:onemoretimememories@proton.me">OneMoreTime</a>
       </p>
     </div>

@@ -76,6 +76,25 @@ a:visited {
   position: relative;
 }
 
+#dareEmoji{
+  display: flex;
+  height: max-content;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  margin: auto;
+  margin-bottom: 24px;
+  margin-top: 42px;
+  border-radius: 8px;
+  width: max-content;
+  padding: 4px;
+}
+
+#dareText{
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .btn-circle {
   border-radius: 100px !important;
   width: 60px !important;
