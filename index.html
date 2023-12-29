@@ -40,25 +40,53 @@
         <div class="text-left mb-2">
           <img src="./logo-dodares.png" alt="DoDares" width="180" />
         </div>
-        <p class="intro text-left mb-4">
+        <p class="intro text-left mb-3">
           Greetings! DoDares is a "fun" &amp; "interactive" game where you and
           your partner take turns to face random dares.
         </p>
-        <div class="form-group">
-          <input
-            placeholder="Your name"
-            type="text"
-            id="yourName"
-            class="form-control"
-          />
-        </div>
-        <div class="form-group">
-          <input
-            placeholder="Partner's Name"
-            type="text"
-            id="partnersName"
-            class="form-control"
-          />
+
+        <p class="intro text-left mb-4">
+          Select the type below, Harcore isn't for the weak.
+        </p>
+        <div class="form-container">
+          <div class="form-group">
+            <div
+              class="btn-group"
+              role="group"
+              aria-label="Dare Type Selection"
+            >
+              <button
+                type="button"
+                class="btn btn-lg btn-secondary active"
+                data-dare-type="foreplay"
+              >
+                Foreplay
+              </button>
+              <button
+                type="button"
+                class="btn btn-lg btn-secondary"
+                data-dare-type="hardcore"
+              >
+                Hardcore
+              </button>
+            </div>
+          </div>
+          <div class="form-group">
+            <input
+              placeholder="Your name"
+              type="text"
+              id="yourName"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              placeholder="Partner's Name"
+              type="text"
+              id="partnersName"
+              class="form-control"
+            />
+          </div>
         </div>
         <div class="text-center mt-3">
           <button id="nextButton" class="btn btn-primary btn-block btn-circle">
@@ -72,11 +100,8 @@
           <img src="./logo-dodares.png" alt="DoDares" width="100" />
         </div>
         <div id="timer" class="my-3 timer"></div>
-        <div id="dareContainer" >
-          <div id="dareEmoji"></div>
-          <div id="dareText"></div>
-        </div>
-        
+        <div class="dare-text" id="dareDisplay"></div>
+
         <button
           id="beginButton"
           class="btn btn-success btn-block btn-circle mb-4"

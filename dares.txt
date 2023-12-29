@@ -1,0 +1,8 @@
+let dares = [
+  { text: "dare funny 1", emoji: "❤️", type: "funny" },
+  { text: "dare funny 2", emoji: "❤️", type: "funny" },
+  { text: "dare challenging 1", emoji: "🌶️", type: "challenging" },
+  { text: "dare challenging 2", emoji: "🌶️", type: "challenging" },
+  { text: "dare creative 1", emoji: "😍", type: "creative" },
+  { text: "dare creative 2", emoji: "😍", type: "creative" },
+];
