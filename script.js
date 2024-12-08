@@ -144,6 +144,26 @@ let dares = [
     type: "hardcore",
   },
   {
+    text: "watch porn together and mimick the actions.",
+    emoji: "🫦",
+    type: "hardcore",
+  },
+  {
+    text: "show your favourite porn video to your partner.",
+    emoji: "🫦",
+    type: "hardcore",
+  },
+  {
+    text: "show your favourite porn video to your partner.",
+    emoji: "🫦",
+    type: "hardcore",
+  },
+  {
+    text: "show your favourite porn video to your partner.",
+    emoji: "🫦",
+    type: "hardcore",
+  },
+  {
     text: "find the coin in your partner's pocket.",
     emoji: "🪙",
     type: "foreplay",
@@ -159,7 +179,11 @@ let dares = [
     emoji: "👙",
     type: "foreplay",
   },
-  { text: "give your partner a sensual.", emoji: "💆‍♀️", type: "hardcore" },
+  {
+    text: "give your partner a sensual massage.",
+    emoji: "💆‍♀️",
+    type: "hardcore",
+  },
   { text: "let your partner tie you up.", emoji: "🪢", type: "hardcore" },
   { text: "tie your partner up.", emoji: "🪢", type: "hardcore" },
   {
